@@ -241,8 +241,7 @@ public class TestNondeterministicAutomatonByThompsonApproach extends TestCase {
 	*/
  
  
-	public final void testNondeterministicAutomatonWithEpsilonTransition()
-	{
+    public final void testNondeterministicAutomatonWithEpsilonTransition(){
         final AutomatonSpecification specHex = new NaiveAutomatonSpecification();
 
         State q0 = specHex.addState();
@@ -251,24 +250,24 @@ public class TestNondeterministicAutomatonByThompsonApproach extends TestCase {
         State q3 = specHex.addState();
         State q4 = specHex.addState();
 		
-		specHex.addTransition(q0, q1, new CharTransitionLabel('0'));
+	specHex.addTransition(q0, q1, new CharTransitionLabel('0'));
         specHex.addTransition(q0, q1, new CharTransitionLabel('1'));
         specHex.addTransition(q0, q1, new CharTransitionLabel('2'));
         specHex.addTransition(q0, q1, new CharTransitionLabel('3'));
         specHex.addTransition(q0, q1, new CharTransitionLabel('4'));
         specHex.addTransition(q0, q1, new CharTransitionLabel('5'));
-		specHex.addTransition(q0, q1, new CharTransitionLabel('6'));
+	specHex.addTransition(q0, q1, new CharTransitionLabel('6'));
         specHex.addTransition(q0, q1, new CharTransitionLabel('7'));
         specHex.addTransition(q0, q1, new CharTransitionLabel('8'));
         specHex.addTransition(q0, q1, new CharTransitionLabel('9'));
-		specHex.addTransition(q0, q1, new CharTransitionLabel('A'));
+	specHex.addTransition(q0, q1, new CharTransitionLabel('A'));
         specHex.addTransition(q0, q1, new CharTransitionLabel('B'));
         specHex.addTransition(q0, q1, new CharTransitionLabel('C'));
         specHex.addTransition(q0, q1, new CharTransitionLabel('D'));
         specHex.addTransition(q0, q1, new CharTransitionLabel('E'));
-		specHex.addTransition(q0, q1, new CharTransitionLabel('F'));
+	specHex.addTransition(q0, q1, new CharTransitionLabel('F'));
 		
-		specHex.addTransition(q1, q2, new CharTransitionLabel('0'));
+	specHex.addTransition(q1, q2, new CharTransitionLabel('0'));
         specHex.addTransition(q1, q2, new CharTransitionLabel('1'));
         specHex.addTransition(q1, q2, new CharTransitionLabel('2'));
         specHex.addTransition(q1, q2, new CharTransitionLabel('3'));
@@ -278,14 +277,14 @@ public class TestNondeterministicAutomatonByThompsonApproach extends TestCase {
         specHex.addTransition(q1, q2, new CharTransitionLabel('7'));
         specHex.addTransition(q1, q2, new CharTransitionLabel('8'));
         specHex.addTransition(q1, q2, new CharTransitionLabel('9'));
-		specHex.addTransition(q1, q2, new CharTransitionLabel('A'));
+	specHex.addTransition(q1, q2, new CharTransitionLabel('A'));
         specHex.addTransition(q1, q2, new CharTransitionLabel('B'));
         specHex.addTransition(q1, q2, new CharTransitionLabel('C'));
         specHex.addTransition(q1, q2, new CharTransitionLabel('D'));
         specHex.addTransition(q1, q2, new CharTransitionLabel('E'));
-		specHex.addTransition(q1, q2, new CharTransitionLabel('F'));
+	specHex.addTransition(q1, q2, new CharTransitionLabel('F'));
 		
-		specHex.addTransition(q2, q3, new CharTransitionLabel('0'));
+	specHex.addTransition(q2, q3, new CharTransitionLabel('0'));
         specHex.addTransition(q2, q3, new CharTransitionLabel('1'));
         specHex.addTransition(q2, q3, new CharTransitionLabel('2'));
         specHex.addTransition(q2, q3, new CharTransitionLabel('3'));
@@ -295,33 +294,33 @@ public class TestNondeterministicAutomatonByThompsonApproach extends TestCase {
         specHex.addTransition(q2, q3, new CharTransitionLabel('7'));
         specHex.addTransition(q2, q3, new CharTransitionLabel('8'));
         specHex.addTransition(q2, q3, new CharTransitionLabel('9'));
-		specHex.addTransition(q2, q3, new CharTransitionLabel('A'));
+	specHex.addTransition(q2, q3, new CharTransitionLabel('A'));
         specHex.addTransition(q2, q3, new CharTransitionLabel('B'));
         specHex.addTransition(q2, q3, new CharTransitionLabel('C'));
         specHex.addTransition(q2, q3, new CharTransitionLabel('D'));
         specHex.addTransition(q2, q3, new CharTransitionLabel('E'));
-		specHex.addTransition(q2, q3, new CharTransitionLabel('F'));
+	specHex.addTransition(q2, q3, new CharTransitionLabel('F'));
 		
-		specHex.addTransition(q3, q4, new CharTransitionLabel('0'));
+	specHex.addTransition(q3, q4, new CharTransitionLabel('0'));
         specHex.addTransition(q3, q4, new CharTransitionLabel('1'));
         specHex.addTransition(q3, q4, new CharTransitionLabel('2'));
         specHex.addTransition(q3, q4, new CharTransitionLabel('3'));
         specHex.addTransition(q3, q4, new CharTransitionLabel('4'));
         specHex.addTransition(q3, q4, new CharTransitionLabel('5'));
-		specHex.addTransition(q3, q4, new CharTransitionLabel('6'));
+	specHex.addTransition(q3, q4, new CharTransitionLabel('6'));
         specHex.addTransition(q3, q4, new CharTransitionLabel('7'));
         specHex.addTransition(q3, q4, new CharTransitionLabel('8'));
         specHex.addTransition(q3, q4, new CharTransitionLabel('9'));
-		specHex.addTransition(q3, q4, new CharTransitionLabel('A'));
+	specHex.addTransition(q3, q4, new CharTransitionLabel('A'));
         specHex.addTransition(q3, q4, new CharTransitionLabel('B'));
         specHex.addTransition(q3, q4, new CharTransitionLabel('C'));
         specHex.addTransition(q3, q4, new CharTransitionLabel('D'));
         specHex.addTransition(q3, q4, new CharTransitionLabel('E'));
-		specHex.addTransition(q3, q4, new CharTransitionLabel('F'));
+	specHex.addTransition(q3, q4, new CharTransitionLabel('F'));
 		
-		specHex.addTransition(q4, q0, new EpsilonTransitionLabel());
+	specHex.addTransition(q4, q0, new EpsilonTransitionLabel());
 		
-		specHex.addTransition(q4, q1, new CharTransitionLabel('a'));
+	specHex.addTransition(q4, q1, new CharTransitionLabel('a'));
 
         
 
@@ -329,7 +328,7 @@ public class TestNondeterministicAutomatonByThompsonApproach extends TestCase {
         specHex.markAsFinal(q4);
 
         final NondeterministicAutomatonByThompsonApproach automat0F = 
-				new NondeterministicAutomatonByThompsonApproach(specHex);
+		new NondeterministicAutomatonByThompsonApproach(specHex);
 
         assertTrue(automat0F.accepts("00007777AAAAFFFF"));
         assertTrue(automat0F.accepts("FFFF00003333"));
@@ -350,5 +349,5 @@ public class TestNondeterministicAutomatonByThompsonApproach extends TestCase {
         assertFalse(automat0F.accepts(""));
         assertFalse(automat0F.accepts("\n"));
         assertFalse(automat0F.accepts("true"));
-	}
+    }
 }
