@@ -266,17 +266,13 @@ public class TestNondeterministicAutomatonByThompsonApproach extends TestCase {
 		
 		final NondeterministicAutomatonByThompsonApproach automat0F = 
 			new NondeterministicAutomatonByThompsonApproach(spec);
-			
-		assertTrue(automat0F.accepts("05AF 16B0 27C1 38D2 49E3"));
+
 		assertTrue(automat0F.accepts("05AF16B027C138D249E3"));
-		assertTrue(automat0F.accepts("05AF 16B0 27C1 38D2"));
 		assertTrue(automat0F.accepts("05AF16B027C138D2"));
-		assertTrue(automat0F.accepts("05AF 16B0 27C1"));
 		assertTrue(automat0F.accepts("05AF16B027C1"));
-		assertTrue(automat0F.accepts("05AF 16B0"));
 		assertTrue(automat0F.accepts("05AF16B0"));
 		assertTrue(automat0F.accepts("05AF"));
-			
+
 		assertFalse(automat0F.accepts(""));
 		assertFalse(automat0F.accepts("T"));
 		assertFalse(automat0F.accepts("\n"));
