@@ -260,11 +260,17 @@ public class TestNondeterministicAutomatonByThompsonApproach extends TestCase {
 		specHex.addTransition(q0, q1, new CharTransitionLabel('7'));
 		specHex.addTransition(q0, q1, new CharTransitionLabel('8'));
 		specHex.addTransition(q0, q1, new CharTransitionLabel('9'));
+		specHex.addTransition(q0, q1, new CharTransitionLabel('a'));
 		specHex.addTransition(q0, q1, new CharTransitionLabel('A'));
+		specHex.addTransition(q0, q1, new CharTransitionLabel('b'));
 		specHex.addTransition(q0, q1, new CharTransitionLabel('B'));
+		specHex.addTransition(q0, q1, new CharTransitionLabel('c'));
 		specHex.addTransition(q0, q1, new CharTransitionLabel('C'));
+		specHex.addTransition(q0, q1, new CharTransitionLabel('d'));
 		specHex.addTransition(q0, q1, new CharTransitionLabel('D'));
+		specHex.addTransition(q0, q1, new CharTransitionLabel('e'));
 		specHex.addTransition(q0, q1, new CharTransitionLabel('E'));
+		specHex.addTransition(q0, q1, new CharTransitionLabel('f'));
 		specHex.addTransition(q0, q1, new CharTransitionLabel('F'));
 
 		specHex.addTransition(q1, q2, new CharTransitionLabel('0'));
@@ -277,11 +283,17 @@ public class TestNondeterministicAutomatonByThompsonApproach extends TestCase {
 		specHex.addTransition(q1, q2, new CharTransitionLabel('7'));
 		specHex.addTransition(q1, q2, new CharTransitionLabel('8'));
 		specHex.addTransition(q1, q2, new CharTransitionLabel('9'));
+		specHex.addTransition(q1, q2, new CharTransitionLabel('a'));
 		specHex.addTransition(q1, q2, new CharTransitionLabel('A'));
+		specHex.addTransition(q1, q2, new CharTransitionLabel('b'));
 		specHex.addTransition(q1, q2, new CharTransitionLabel('B'));
+		specHex.addTransition(q1, q2, new CharTransitionLabel('c'));
 		specHex.addTransition(q1, q2, new CharTransitionLabel('C'));
+		specHex.addTransition(q1, q2, new CharTransitionLabel('d'));
 		specHex.addTransition(q1, q2, new CharTransitionLabel('D'));
+		specHex.addTransition(q1, q2, new CharTransitionLabel('e'));
 		specHex.addTransition(q1, q2, new CharTransitionLabel('E'));
+		specHex.addTransition(q1, q2, new CharTransitionLabel('f'));
 		specHex.addTransition(q1, q2, new CharTransitionLabel('F'));
 
 		specHex.addTransition(q2, q3, new CharTransitionLabel('0'));
@@ -294,11 +306,17 @@ public class TestNondeterministicAutomatonByThompsonApproach extends TestCase {
 		specHex.addTransition(q2, q3, new CharTransitionLabel('7'));
 		specHex.addTransition(q2, q3, new CharTransitionLabel('8'));
 		specHex.addTransition(q2, q3, new CharTransitionLabel('9'));
+		specHex.addTransition(q2, q3, new CharTransitionLabel('a'));
 		specHex.addTransition(q2, q3, new CharTransitionLabel('A'));
+		specHex.addTransition(q2, q3, new CharTransitionLabel('b'));
 		specHex.addTransition(q2, q3, new CharTransitionLabel('B'));
+		specHex.addTransition(q2, q3, new CharTransitionLabel('c'));
 		specHex.addTransition(q2, q3, new CharTransitionLabel('C'));
+		specHex.addTransition(q2, q3, new CharTransitionLabel('d'));
 		specHex.addTransition(q2, q3, new CharTransitionLabel('D'));
+		specHex.addTransition(q2, q3, new CharTransitionLabel('e'));
 		specHex.addTransition(q2, q3, new CharTransitionLabel('E'));
+		specHex.addTransition(q2, q3, new CharTransitionLabel('f'));
 		specHex.addTransition(q2, q3, new CharTransitionLabel('F'));
 
 		specHex.addTransition(q3, q4, new CharTransitionLabel('0'));
@@ -311,11 +329,17 @@ public class TestNondeterministicAutomatonByThompsonApproach extends TestCase {
 		specHex.addTransition(q3, q4, new CharTransitionLabel('7'));
 		specHex.addTransition(q3, q4, new CharTransitionLabel('8'));
 		specHex.addTransition(q3, q4, new CharTransitionLabel('9'));
+		specHex.addTransition(q3, q4, new CharTransitionLabel('a'));
 		specHex.addTransition(q3, q4, new CharTransitionLabel('A'));
+		specHex.addTransition(q3, q4, new CharTransitionLabel('b'));
 		specHex.addTransition(q3, q4, new CharTransitionLabel('B'));
+		specHex.addTransition(q3, q4, new CharTransitionLabel('c'));
 		specHex.addTransition(q3, q4, new CharTransitionLabel('C'));
+		specHex.addTransition(q3, q4, new CharTransitionLabel('d'));
 		specHex.addTransition(q3, q4, new CharTransitionLabel('D'));
+		specHex.addTransition(q3, q4, new CharTransitionLabel('e'));
 		specHex.addTransition(q3, q4, new CharTransitionLabel('E'));
+		specHex.addTransition(q3, q4, new CharTransitionLabel('f'));
 		specHex.addTransition(q3, q4, new CharTransitionLabel('F'));
 	
 		specHex.addTransition(q4, q0, new EpsilonTransitionLabel());
