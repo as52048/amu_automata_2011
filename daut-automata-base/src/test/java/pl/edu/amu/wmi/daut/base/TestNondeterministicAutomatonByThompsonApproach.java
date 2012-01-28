@@ -229,7 +229,6 @@ public class TestNondeterministicAutomatonByThompsonApproach extends TestCase {
         assertFalse(automaton.accepts("bcccccc"));
         assertFalse(automaton.accepts("z"));
     }
-}
 
 	/**Ósmy test
 		*Automat: automat (deterministyczny bądź niedeterministyczny, 
