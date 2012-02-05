@@ -251,7 +251,7 @@ public class TestNondeterministicAutomatonByThompsonApproach extends TestCase {
 		State q4 = spec.addState();
 		State q5 = spec.addState();
 		
-		TransitionLabel hexLabel = new CharClassTransitionLabel(0-9, A-F or a-f);
+		TransitionLabel hexLabel = new CharClassTransitionLabel("0123456789abcdefABCDEF");
 		
 		spec.addTransition(q0, q1, hexLabel);
 		spec.addTransition(q1, q2, hexLabel);
